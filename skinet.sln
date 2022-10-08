@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skinetAPI", "skinetAPI\skinetAPI.csproj", "{5561CE4F-0EA7-45C9-B1E0-5E1355E12624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7CA1F1C1-BDFA-455E-9EF5-EDC3CE06AB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9CCCC178-2F5C-422E-9034-40B59F6FB192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5561CE4F-0EA7-45C9-B1E0-5E1355E12624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5561CE4F-0EA7-45C9-B1E0-5E1355E12624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5561CE4F-0EA7-45C9-B1E0-5E1355E12624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5561CE4F-0EA7-45C9-B1E0-5E1355E12624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA1F1C1-BDFA-455E-9EF5-EDC3CE06AB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA1F1C1-BDFA-455E-9EF5-EDC3CE06AB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA1F1C1-BDFA-455E-9EF5-EDC3CE06AB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA1F1C1-BDFA-455E-9EF5-EDC3CE06AB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCCC178-2F5C-422E-9034-40B59F6FB192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCCC178-2F5C-422E-9034-40B59F6FB192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCCC178-2F5C-422E-9034-40B59F6FB192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCCC178-2F5C-422E-9034-40B59F6FB192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
