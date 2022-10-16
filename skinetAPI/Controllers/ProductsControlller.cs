@@ -1,3 +1,4 @@
+using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace skinetAPI.Controllers;
@@ -6,18 +7,25 @@ namespace skinetAPI.Controllers;
 [Route("api/{controller}")]
 public class ProductsControlller : ControllerBase
 {
+    private readonly IProductRepository _repository;
+
+    public ProductsControlller(IProductRepository repository)
+    {
+       _repository = repository;
+    }
     // GET ALL Products
     [HttpGet]
-    public string GetProducts()
+    public async Task<IEnumerable<Product>> GetProducts()
     {
-        return "Get Product";
+        var products = await _repository.GetAllProducts();
+        return products;
     }
     
     // GET One Product
     [HttpGet("{id}")]
-    public string GetProduct(string id)
+    public async Task<Product> GetProduct(int id)
     {
-        return id;
+        return await _repository.GetProductByIdAsync(id);
     }
     
 }
